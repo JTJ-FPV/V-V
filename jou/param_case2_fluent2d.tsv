@@ -1,0 +1,15 @@
+
+name	definition	description	parameterid	parametername	unit	input-parameter	output-parameter	
+"Ma"	"0.08816718534231452"	""	""	"Ma"	""	#t	#f	
+"Re"	"rho * U_infinity * c_mac / mu"	""	""	"Re"	""	#f	#f	
+"U_infinity"	"30 [m/s]"	""	""	"U_infinity"	""	#t	#f	
+"boundary_layer_thickness"	"0.37 * c_mac / Re**0.2"	""	""	"boundary_layer_thickness"	""	#f	#f	
+"c_mac"	"1 [m]"	""	""	"c_mac"	""	#t	#f	
+"mu"	"1.78938e-05 [Pa s]"	""	""	"mu"	""	#t	#f	
+"pressure"	"22690.274193148634 [Pa]"	""	""	"pressure"	""	#t	#f	
+"rho"	"0.2743716426385628 [kg/m^3]"	""	""	"rho"	""	#t	#f	
+"temperature"	"288.15[K]"	""	""	"temperature"	""	#t	#f	
+"turbulent_intensity"	"0.001"	""	""	"turbulent_intensity"	""	#t	#f	
+"turbulent_length_scale"	"0.039 [m]"	""	""	"turbulent_length_scale"	""	#t	#f	
+"x_component"	"1"	""	""	"x_component"	""	#f	#f	
+"y_component"	"0"	""	""	"y_component"	""	#f	#f	

@@ -1,0 +1,14 @@
+\paragraph{Task 2: iterative error and uncertainty.}
+For each monitored quantity $\phi\in\{C_L,C_D\}$, the last 200 iterations were used as the tail window. The iterative platform value was represented by the tail mean, while the iterative uncertainty was quantified using the tail standard deviation and tail range:
+\begin{equation}
+\bar{\phi}_{\mathrm{tail}}=\frac{1}{m}\sum_{k=N-m+1}^{N}\phi^{(k)},
+\qquad
+\sigma_{\mathrm{tail}}=\sqrt{\frac{1}{m-1}\sum_{k=N-m+1}^{N}\left(\phi^{(k)}-\bar{\phi}_{\mathrm{tail}}\right)^2},
+\qquad
+R_{\mathrm{tail}}=\max(\phi^{(k)})-\min(\phi^{(k)}).
+\end{equation}
+The corresponding convergence histories are shown in Fig.~\ref{fig:task2_cl_compare} and Fig.~\ref{fig:task2_cd_compare}, while the grouped uncertainty metrics are shown in Fig.~\ref{fig:task2_std_bar}--\ref{fig:task2_lastmean_bar}.
+\paragraph{Quantitative observations.}
+For $C_L$, the tail standard deviation is 0.000181 for kw and 0.000102 for SA, while the corresponding tail ranges are 0.000615 and 0.000361, respectively.
+For $C_D$, the tail standard deviation is 0.000013 for kw and 0.000009 for SA, while the corresponding tail ranges are 0.000043 and 0.000032, respectively.
+Therefore, the model with the smaller tail standard deviation and range can be interpreted as exhibiting smaller iterative uncertainty under the present solver settings.
