@@ -23,20 +23,19 @@ Optional:
 ## 2. Repository layout
 
 ```
-Assignment/
-  data_process/
-    data/                  # raw outputs exported from Fluent (CL/CD/Cp)
-      kw/taskX/...         # X = 1..5 (Standard k–ω with curvature correction)
-      sa/taskX/...         # X = 1..5 (Spalart–Allmaras)
-    result/                # post-processed figures + summary CSVs
-    process_task1.py
-    process_task2_task4.py
-    process_task3.py
-    process_task5.py
-    process_case3_task4.py
-  jou/                     # Fluent journals (case2/case3 + refine/ama)
-  report/                  # report.pdf
-  mesh/                    # meshes (case2/case3)
+data_process/
+  data/                  # raw outputs exported from Fluent (CL/CD/Cp)
+    kw/taskX/...         # X = 1..5 (Standard k–ω with curvature correction)
+    sa/taskX/...         # X = 1..5 (Spalart–Allmaras)
+  result/                # post-processed figures + summary CSVs
+  process_task1.py
+  process_task2_task4.py
+  process_task3.py
+  process_task5.py
+  process_case3_task4.py
+jou/                     # Fluent journals (case2/case3 + refine/ama)
+report/                  # report.pdf
+mesh/                    # meshes (case2/case3)
 ```
 
 ### Notes
