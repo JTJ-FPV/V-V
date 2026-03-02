@@ -88,8 +88,8 @@ jou/param_case2_fluent2d.tsv
 
 Two top-level folders correspond to the two assigned turbulence models:
 
-- `kw/` → Standard k–ω with curvature correction (简称 **kw**)
-- `sa/` → Spalart–Allmaras (简称 **SA**)
+- `kw/` → Standard k–ω (with curvature correction), abbreviated as **kw**
+- `sa/` → Spalart–Allmaras , abbreviated as **SA**
 
 Each contains `taskX/` (X = 1..5).
 
@@ -156,17 +156,6 @@ Outputs are written to:
 
 ---
 
-## 8. References (methodology)
-
-- Fluent journal files (recorded or manually created):  
-  https://ansyshelp.ansys.com/public/Views/Secured/corp/v251/en/flu_ug/flu_ug_JournalFile.html
-- Roache, P.J. “Perspective: A Method for Uniform Reporting of Grid Refinement Studies” (GCI):  
-  https://asmedigitalcollection.asme.org/fluidsengineering/article/116/3/405/411554/Perspective-A-Method-for-Uniform-Reporting-of-Grid
-- General guidance on writing research code READMEs (Cornell Data Services):  
-  https://data.research.cornell.edu/data-management/sharing/writing-readmes-for-research-code-software/
-
----
-
-## 9. License
+## 8. License
 
 This repository is for coursework submission and reproducibility. If you plan to reuse code/data, please cite appropriately and respect any course or third‑party constraints.
